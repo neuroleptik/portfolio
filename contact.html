@@ -23,20 +23,20 @@
 	</nav>
   <div class = "container mt-5">
     <h1>Me contacter</h1>
-    <p> Dans cette section, vous pouvez m'écrire un message que je receverai par mail. Soyez assuré que je réponderai à votre message dans les plus brefs délais.
+    <p> Dans cette section, vous pouvez m'écrire un message que je recevrai par mail. Soyez assuré que je répondrai à votre message dans les plus brefs délais.
       <hr>
-    <form>  
+    <form action="/mail.php" method="post">  
       <div class="form-group">  
         <label for="exampleInputEmail1">Adresse email</label> 
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">  
+        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">  
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Sujet</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
+        <input name = "subject" type="text" class="form-control" id="exampleInputPassword1">
       </div>
       <div class="form-group">
       <label for="exampleFormControlTextarea1">Votre message</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+      <textarea name = "body" class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
     </div>
       <button type="submit" class="btn btn-dark">Envoyer</button>
     </form>
