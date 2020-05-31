@@ -11,4 +11,4 @@ I picked a simple boostrap css, you can find the style at : https://getbootstrap
 I only inserted one php file. It is just a simple mail function that I have securized from script injections.
 
 # SSL and HTTPS
-Even if there is no risk for data because it is just a showcase website, I have setted up a free SSL encryption certificate. That's why there is https writed on the beginning URL
+Even if there is no risk for data because it is just a showcase website, I have setted up a free SSL encryption certificate. That's why there is https writed on the beginning of the URL
